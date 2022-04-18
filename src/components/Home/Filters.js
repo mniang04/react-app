@@ -2,7 +2,7 @@ import React from "react";
 
 const Filters = {
   Category: function ({ name }) {
-    const handleOnChange = (e) => {};
+    const handleOnChange = (e) => { };
     return (
       <div className="mt-2 mb-2 pl-2">
         <div className="custom-control custom-checkbox">
@@ -29,7 +29,7 @@ const Filters = {
         <div className="custom-control custom-checkbox">
           <input
             name={name}
-            onChange={() => {}}
+            onChange={() => { }}
             type="checkbox"
             className="custom-control-input"
             id={name}
